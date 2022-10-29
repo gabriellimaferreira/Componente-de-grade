@@ -1,0 +1,28 @@
+@media (min-width: 0px) and (max-width: 568px){
+  
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-areas: "area-a" "area-b" "area-c";
+        
+    }
+    .area-a{
+        grid-area: area-a;
+        justify-self: center;
+        align-self: stretch;
+        width: 400px;
+        
+    }
+    .area-b{
+        grid-area: area-b;
+        justify-self: center;
+        align-self: stretch;
+    }
+    .area-c{
+        grid-area: area-c;
+        justify-self: center;
+        align-self: stretch;
+    }
+   
+   
+}

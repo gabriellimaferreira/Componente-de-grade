@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(241, 234, 234);
+}
+
+
+.container{
+    width: 800px;
+    margin: 150px auto;
+    height: 500px;
+    padding: 0 150px;
+    display: grid;
+    grid-template-areas: "area-a area-a" "area-b area-c";
+}
+.area-a{
+    grid-area: area-a;
+    background-color: white;
+    height: 280px;
+    padding: 1px 0;
+    
+}
+.area-b{
+    grid-area: area-b;
+    background-color: rgb(47, 163, 138);
+    height: 280px;
+    width: 400px;
+    
+}
+.area-c{
+    grid-area: area-c;
+    background-color: rgb(93, 189, 152);
+    height: 280px;
+    width: 400px;
+    
+}
+
+
+
+.area-a-conteudos{
+    padding: 0 25px;
+
+}
+.area-a-conteudos h2{
+    color: rgb(42, 150, 126);
+    font-size: 40px;
+    
+}
+.area-a-conteudos h3{
+    color: rgb(203, 218, 5);
+    font-size: 30px;
+}
+.area-a-conteudos p{
+    color: rgb(155, 152, 152);
+    font-size: 20px;
+}
+
+
+.area-b-conteudos{
+    display: flex inline;
+    
+}
+
+.area-b-conteudos h2{
+    color: white;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.area-b-conteudos p span{
+    color: white;
+    font-size: 40px;
+    padding-left: 35px;
+}
+.area-b-conteudos p{
+    color: rgba(221, 214, 214, 0.712);
+}
+.area-b-conteudos h4{
+    color: white;
+    padding-left: 35px;
+    font-size: 15px;
+}
+.area-b-conteudos input{
+    color: white;
+    background-color: rgb(176, 207, 35);
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 17px;
+    width: 230px;
+    margin-left: 35px;
+    
+}
+
+
+.area-c-conteudos h2{
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.area-c-conteudos p{
+    color: rgba(221, 214, 214, 0.993);;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
