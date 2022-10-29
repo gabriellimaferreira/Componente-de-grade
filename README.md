@@ -2,3 +2,4 @@
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
+Projeto desenvolvido para melhorar minhas habilidade com css grid.
